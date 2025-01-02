@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+body{
+    background-image: url(bgccd1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top{
+    height: 60vh;
+    width:100vw;
+    background-image: url(ccdtop.png);
+    background-size: cover;
+}
+
+.navbar{
+    height:92px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    top:0px;
+}
+.logotop{
+    height:72px;
+    width: 5vw;
+   background-image:url(ccdlogo.png);
+   background-size: cover; 
+}
+
+.menu{
+    color:rgb(221, 50, 50);
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    padding-right: 30px;
+    width:70%;
+    display:flex;
+
+}
+
+.menu a{
+    padding-left:15px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.navextra{
+    font-size: 1.2rem;
+    color:rgb(221, 50, 50);
+}
+
+.navextra i{
+    margin-left: 15px;
+}
+.navextra i:hover{
+    cursor:pointer;
+    color:black;
+}
+
+.boxes{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.box1{
+    height:400px;
+    grid-column: 1/ 2;
+    background-image: url(box1.gif);
+    background-size: cover;
+
+}
+.box2{
+    height:400px;
+    grid-column: 2/ 3;
+    background-image: url(box2.gif);
+    background-size: cover;
+
+}
+.box3{
+    height:400px;
+    grid-column: 3/ 4;
+    background-image: url(box3.gif);
+    background-size: cover;
+
+}
+
+.design{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+button{
+    background-color: #dc4348;
+    color:white;
+    font-size: 15px;
+    font-weight: 800;
+    border:none;
+    border-radius:20px;
+    padding:8px 25px 8px 25px;
+}
+
+.middle{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caption{
+    height:200px;
+    width:400px;
+    background-image: url(ccdhistory.png);
+    background-size: cover;
+    
+}
+.story{
+    margin-top: 30px;
+}
+
+.social{
+    height:100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dec{
+    height:25px;
+    width:20px;
+    margin-left: 10px;
+}
+.insta{
+    height:40%;
+    width:3%;
+    background-image: linear-gradient(to bottom right,rgb(26, 26, 211),rgb(145, 48, 145),rgb(247, 41, 41),rgb(255, 231, 13)); 
+    border-radius: 30%;  
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.fb{
+    height:40%;
+    width:3%;
+    background-color: rgb(22, 12, 158);
+    border-radius: 30%;  
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.yt{
+    height:40%;
+    width:3%;
+    background-color: rgb(212, 14, 14);
+    border-radius: 30%;  
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.twitter{
+    height:40%;
+    width:3%;
+    background-color: rgb(25, 153, 238);
+    border-radius: 30%;  
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.linkedin{
+    height:40%;
+    width:3%;
+    background-color: rgb(22, 97, 196);
+    border-radius: 30%;  
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.end{
+    height:250px;
+    width:90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 0.5px solid rgb(211, 211, 211);
+    border-bottom: 0.5px solid rgb(211, 211, 211);
+}
+
+.decor{
+    height:165px;
+    color:darkgray;
+    font-size: 0.95rem;
+}
+.decor a:hover{
+    cursor:pointer;
+    color:rgb(141, 140, 140);
+}
+
+.copyright{
+    height:70px;
+    background-color: white;
+    padding-left: 12%;
+    padding-top: 3%;
+    color:darkgray;
+    display:flex;
+}
+
+.talk{
+    height:70px;
+    width:80px;
+    margin-left: 70%;
+    background-image: url(talklogo.png);
+    background-size: cover;
+    position:fixed;
+    bottom:0px;
+    right:5px;
+}
+
+.talk:hover{
+    cursor: pointer;
+}
+
+@media(max-width:760px){
+    .top{
+        height: 80vh;
+        width:100vw;
+        background-image: url(ccdtop.png);
+        background-size: cover;
+    }
+
+    .boxes{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .box1{
+        height:80vh;
+        grid-column: 1/ 4;
+        background-image: url(box1.gif);
+        background-size: cover;
+    
+    }
+    .box2{
+        height:80vh;
+        grid-column: 1/4;
+        background-image: url(box2.gif);
+        background-size: cover;
+    
+    }
+    .box3{
+        height:80vh;
+        grid-column: 1/ 4;
+        background-image: url(box3.gif);
+        background-size: cover;
+    
+    }
+    
+}
